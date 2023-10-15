@@ -51,7 +51,6 @@ public class PointListDrawer
 		draggedPosition = rectTransform.InverseTransformPoint(
 			Handles.FreeMoveHandle(
 				worldPosition,
-				Quaternion.identity,
 				HandleUtility.GetHandleSize(worldPosition) * 0.1f,
 				Vector3.zero,
 				DrawPointHandle
